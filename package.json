@@ -13,7 +13,7 @@
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.4",
-    "gatsby-plugin-sharp": "^0.21.0",
+    "gatsby-plugin-sharp": "^2.0.12",
     "gatsby-source-datocms": "^2.0.0",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.1.12",
