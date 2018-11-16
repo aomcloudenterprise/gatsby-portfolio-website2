@@ -8,7 +8,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark',`
-    `gatsby-plugin-netlify',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -81,6 +80,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    `gatsby-plugin-netlify',
   ],
 },
  
