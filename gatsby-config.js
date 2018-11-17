@@ -21,11 +21,14 @@ module.exports = {
         name: `data`,
         path: `'${__dirname}/src/data/',
         ignore: ['**./\.*'], // ignore files starting with a dot
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: 'images`,
         path: path.join(__dirname, `src`, `images`),
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: path.join(__dirname, 'src', 'images'),
       },
     },
     `gatsby-plugin-sharp`,
