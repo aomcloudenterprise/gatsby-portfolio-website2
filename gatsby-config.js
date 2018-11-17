@@ -20,8 +20,7 @@ module.exports = {
       options: {
         name: `data`,
         path: `'${__dirname}/src/data/',
-        ignore: ['**./\.*'], // ignore files starting with a dot
-        path: path.join(__dirname, `src`, `images`),
+        ignore: ['** /\.*'], 
       },
     },
     {
