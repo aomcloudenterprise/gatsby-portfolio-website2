@@ -9,31 +9,30 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `'${__dirname}/src/data/',
-        ignore: ['** /\.*'], 
+        name: 'pages',
+        path: '${__dirname}/src/pages/',
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'images',
-        path: path.join(__dirname, 'src', 'images'),
+        name: 'data',
+        path: '${__dirname}/src/data/',
+      }, 
+    },
+    {'
+      resolve:'gatsby-source-filesystem',
+      options:{
+         name:'images`,
+         path: path.join(__dirname, 'src', 'images'),
       },
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-   }, 
-   {
+    }, 
+    {
       resolve: `gatsby-source-datocms`,
       options: {
         // You can find your read-only API token under the Settings > API tokens
@@ -86,4 +85,6 @@ module.exports = {
   ],
 },
  
+ 
+
      
